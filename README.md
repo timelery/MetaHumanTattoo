@@ -29,7 +29,7 @@ Tattoos for MetaHuman Characters in Unreal Engine 5.8. Load an SVG design, click
 
    ```
    cd <YourProject>/Plugins
-   git clone https://github.com/timelery/MetahumanTattoo.git MetaHumanTattoo
+   git clone https://github.com/timelery/MetaHumanTattoo.git MetaHumanTattoo
    ```
 
    Or, on GitHub, use **Code > Download ZIP**, unzip it into `<YourProject>/Plugins`, and rename the folder to `MetaHumanTattoo`.
