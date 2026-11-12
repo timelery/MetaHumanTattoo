@@ -2,13 +2,13 @@
 
 Tattoos for MetaHuman Characters in Unreal Engine 5.8. Load an SVG design, click on the character in the **MetaHuman Character editor** to place it, scale and turn it, pick black or colored ink, and bake it into the character's skin.
 
-<p>
-  <img src="Examples/NauticalStar.svg" width="140" alt="Nautical star example">
-  &nbsp;&nbsp;
-  <img src="Examples/Heart.svg" width="140" alt="Heart example">
-</p>
+[![Placing, resizing and applying a tattoo in the MetaHuman Character editor](Docs/MetaHumanTattooPreview.gif)](Docs/MetaHumanTattooPreview.mp4)
 
-*The two example designs in [`Examples/`](Examples): a one-color star and a two-color heart.*
+*Placing, resizing and applying a tattoo, sped up.* **[▶ Watch the full 48-second preview video](Docs/MetaHumanTattooPreview.mp4)**
+
+![The Tattoos panel in the MetaHuman Character editor, with an eagle tattoo placed on the character's side](Docs/EditorShot.png)
+
+*The Tattoos panel docked in the MetaHuman Character editor: the tattoo list, every setting for the selected tattoo, and the result live in the viewport.*
 
 - **Any SVG.** Filled shapes and strokes, in one ink color (black-work) or in the SVG's own colors.
 - **Place it on the character.** Click on the skin in the editor's viewport, drag to slide it, Ctrl + mouse wheel to scale, Shift + mouse wheel to turn.
@@ -62,6 +62,14 @@ If your project is Blueprint-only and the build fails, make it a C++ project onc
 7. Click **Apply to Skin**. The tattoo is baked into the skin, and the character and its new textures are saved.
 
 For a colored tattoo, add `Examples/Heart.svg` and set **Ink Mode** to **Colors From SVG**.
+
+<p>
+  <img src="Examples/NauticalStar.svg" width="140" alt="Nautical star example">
+  &nbsp;&nbsp;
+  <img src="Examples/Heart.svg" width="140" alt="Heart example">
+</p>
+
+*The two example designs in [`Examples/`](Examples): a one-color star and a two-color heart.*
 
 ## Controls
 
