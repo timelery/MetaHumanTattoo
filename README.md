@@ -19,10 +19,19 @@ Tattoos for MetaHuman Characters in Unreal Engine 5.8. Load an SVG design, click
 ## Requirements
 
 - **Unreal Engine 5.8** (tested on 5.8.3, Windows) with Epic's **MetaHuman Character** plugin, which ships with the engine. Not tested on other engine versions.
-- **A C++ toolchain** to build the plugin from source (Visual Studio 2022 with the *Game development with C++* workload).
+- **No compiler** for the prebuilt UE 5.8 Windows download. To build from source, a C++ toolchain (Visual Studio 2022 with the *Game development with C++* workload).
 - **A character whose skin uses texture overrides.** Its *Texture & Material Overrides* need **Face Base Color** and **Body Base Color** textures, as characters with custom skin textures have. The skin textures MetaHuman Creator generates for the body hold skin-tone data rather than color, so ink cannot be drawn into them. The plugin tells you when a character cannot take tattoos; see [What to know](#what-to-know).
 
 ## Install
+
+### Prebuilt (UE 5.8 on Windows, no compiler needed)
+
+1. Close the Unreal Editor.
+2. Download **`MetaHumanTattoo-1.0.0-UE5.8-Win64.zip`** from the [latest release](https://github.com/timelery/MetaHumanTattoo/releases/latest).
+3. Unzip it into your project's `Plugins` folder, so that you have `<YourProject>/Plugins/MetaHumanTattoo/MetaHumanTattoo.uplugin`. Create the `Plugins` folder if the project has none.
+4. Open the project and check that **Edit > Plugins > MetaHuman Tattoo** is enabled (it is by default).
+
+### From source
 
 1. Close the Unreal Editor.
 2. Put the plugin in your project's `Plugins` folder, in a folder named `MetaHumanTattoo`:
@@ -138,7 +147,7 @@ See the [User Guide](Docs/UserGuide.md#scripting) for every function.
 
 | Engine | Built | Bake | Editor panel |
 |---|---|---|---|
-| Unreal Engine 5.8.3, Windows | yes, including Epic's `BuildPlugin -StrictIncludes` | yes: textures compared before and after | yes: placement driven by the plugin's automation API |
+| Unreal Engine 5.8.3, Windows | yes, including Epic's `BuildPlugin -StrictIncludes`; the prebuilt download is that build | yes: textures compared before and after | yes: placement driven by the plugin's automation API |
 | Other versions, Linux, macOS | not tested | | |
 
 Tested with a character that uses custom face and body skin textures. Not yet tested:
