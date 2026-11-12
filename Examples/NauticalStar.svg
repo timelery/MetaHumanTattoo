@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Nautical star, single color. MetaHuman Tattoo example (MIT). -->
+  <g fill="none" stroke="#111111" stroke-width="5" stroke-linejoin="round">
+    <polygon points="100.00,104.00 78.25,74.07 100.00,12.00"/>
+    <polygon points="100.00,104.00 121.75,74.07 187.50,75.57"/>
+    <polygon points="100.00,104.00 135.19,115.43 154.08,178.43"/>
+    <polygon points="100.00,104.00 100.00,141.00 45.92,178.43"/>
+    <polygon points="100.00,104.00 64.81,115.43 12.50,75.57"/>
+  </g>
+  <g fill="#111111" stroke="#111111" stroke-width="5" stroke-linejoin="round">
+    <polygon points="100.00,104.00 100.00,12.00 121.75,74.07"/>
+    <polygon points="100.00,104.00 187.50,75.57 135.19,115.43"/>
+    <polygon points="100.00,104.00 154.08,178.43 100.00,141.00"/>
+    <polygon points="100.00,104.00 45.92,178.43 64.81,115.43"/>
+    <polygon points="100.00,104.00 12.50,75.57 78.25,74.07"/>
+  </g>
+</svg>

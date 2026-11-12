@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Two-color heart. MetaHuman Tattoo example (MIT). -->
+  <path d="M100 178 C 60 148, 14 116, 14 70 C 14 40, 36 20, 62 20 C 80 20, 94 30, 100 46 C 106 30, 120 20, 138 20 C 164 20, 186 40, 186 70 C 186 116, 140 148, 100 178 Z" fill="#b3121f" stroke="#111111" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M52 44 C 38 48, 32 60, 34 74" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+</svg>

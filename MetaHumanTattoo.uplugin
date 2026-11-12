@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "MetaHuman Tattoo",
+	"Description": "Tattoos for MetaHuman Characters: load an SVG, click on the character in the MetaHuman Character editor to place it, scale and turn it, choose black or colored ink, and bake it into the skin textures.",
+	"Category": "MetaHuman",
+	"CreatedBy": "Codimation",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/timelery/MetahumanTattoo/blob/main/Docs/UserGuide.md",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/timelery/MetahumanTattoo/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MetaHumanTattooEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MetaHumanCharacter",
+			"Enabled": true
+		}
+	]
+}
